@@ -1,0 +1,97 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    /* 轻柔的背景色 */
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    /* 白色背景提高可读性 */
+    border-radius: 10px;
+    /* 圆角边框 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 简单的阴影效果 */
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eee;
+    /* 输入框背景色 */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* 圆角 */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    /* 可爱的粉红色按钮 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* 圆角 */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f50057;
+    /* 鼠标悬停时的颜色变化 */
+}
+
+.preview-container {
+    width: 100%;
+    /* 预览容器宽度 */
+    max-height: 200px;
+    /* 预览容器最大高度 */
+    overflow: hidden;
+    /* 超出部分隐藏 */
+    margin-bottom: 20px;
+    /* 与提交按钮的间距 */
+}
+
+#resultText {
+    display: block;
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: #fafafa;
+    /* 结果框背景色 */
+    border-radius: 5px;
+    /* 结果框圆角 */
+}
+
+.preview-container {
+    width: 100%;
+    /* 确保容器宽度占满父元素 */
+    max-height: 400px;
+    /* 设置一个最大高度 */
+    overflow-y: auto;
+    /* 超出部分可滚动 */
+    margin-bottom: 20px;
+    /* 与其他元素的间距 */
+    border: 1px solid #ccc;
+    /* 可选，增加边框让容器更明显 */
+    border-radius: 5px;
+    /* 圆角边框 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* 轻微的阴影效果 */
+}

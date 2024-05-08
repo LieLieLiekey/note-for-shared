@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片内容描述服务</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>😎故事魔法师～</h1>
+        <input type="file" id="imageInput" accept="image/*" onchange="previewImage();">
+        <div id="previewContainer" class="preview-container"></div>
+        <button onclick="uploadImage()">提交图片</button>
+        <div id="loadingText" style="display: none;">加载中...</div>
+        <div id="resultText" style="display: none;">上传图片以查看描述</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
